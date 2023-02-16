@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    max-width: 336px;
+    margin: 0 auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    height: 28px;
+    background-color: #FFDC40;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+
+.sort-icon {
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.sort-icon svg {
+    cursor: pointer;
+}
+
+.sort-icon svg:hover * {
+    fill: black;
+}
+
+.to-do-list {
+    border: 1px solid #C4C4C4;
+    padding: 10px 30px 10px 27px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    display: none;
+}
+
+.to-do-list img {
+    cursor: pointer;
+}
+
+.to-do-list .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9953F1;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    color: white;
+    position: absolute
+}
+
+.addToListButton {
+    width: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.addToListButton button {
+    background: #833AE0;
+    border-radius: 71px;
+    width: 100%;
+    padding-left: 25px;
+    height: 42px;
+    border: none;
+    outline: none;
+    margin-bottom: 19px;
+    color: white;
+    cursor: pointer;
+}
+
+.column {
+    padding-left: 28px;
+    padding-right: 22px;
+}
+
+.task-input {
+    margin-bottom: 18px;
+    width: 100%;
+    position: relative;
+
+}
+
+input {
+    box-sizing: border-box;
+    border-style: none;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 10px;
+
+}
+
+.task-input svg {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.task-input svg:hover * {
+    fill: #833AE0;
+}
+
+.arrow-up-gray,
+.arrow-up-black,
+.arrow-down-black {
+    display: none;
+}
+
+.sort-icon svg:last-child {
+    display: none;
+}
+
+p {
+    width: 200px;
+}
